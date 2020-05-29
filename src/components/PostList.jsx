@@ -38,7 +38,7 @@ const PostList = ({ newData, pagination, sortValue, calculateDuration }) => {
                     return (
                         <div key={i}>
                             <div>
-                                <span onClick={() => history.push(`/post/${item.id}`)} className={clsx(classes.hover)} style={{ fontSize: 14 }}>{item.id}: Title: {item.title} </span>
+                                <span onClick={() => history.push(`/post/${item.id}`)} className={clsx(classes.hover)} style={{ fontSize: 14 }}>{item.title} </span>
                                 <a className={clsx(classes.anchor)} href={item.url} target='_blank' rel='noopener noreferrer'>({item.url})</a>
                             </div>
                             <div style={{ display: 'flex', fontSize: 13, color: '#828282' }}>

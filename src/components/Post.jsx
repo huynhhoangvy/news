@@ -77,18 +77,6 @@ const Post = ({ calculateDuration }) => {
             <div style={{ fontSize: 12, color: '#828282' }}>
                 <span>{post.comment_owner} </span>
                 <a href="/" className={classes.anchor}>{formatDateTime(post.comment_date)}</a>
-                {/* <CustomSpan />
-                <span>
-                    {post.author}
-                </span>
-                <CustomSpan />
-                <span>
-                    {calculateDuration(post.date)}
-                </span>
-                <CustomSpan />
-                <span>
-                    1 comment
-                </span> */}
                 <br />
                 <span style={{ fontSize: 13, color: '#000000' }}>{post.comment}</span>
             </div>
